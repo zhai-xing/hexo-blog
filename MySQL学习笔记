@@ -747,6 +747,14 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
     <div class="item left">
     </div>
     <div class="item right">
+      
+
+  <a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;020a1051d89f40bd92ad4ce455860ff5.jpg" title="Redis学习笔记">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> Redis</span>
+  <h3>Redis学习笔记</h3>
+  </a>
+
     </div>
 </div>
 
@@ -781,13 +789,13 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 <nav class="state">
     <div class="item posts">
       <a href="/hexo-blog/archives/">
-        <span class="count">1</span>
+        <span class="count">2</span>
         <span class="name">文章</span>
       </a>
     </div>
     <div class="item categories">
       <a href="/hexo-blog/categories/">
-        <span class="count">1</span>
+        <span class="count">2</span>
         <span class="name">分类</span>
       </a>
     </div>
@@ -886,6 +894,16 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 <div class="rpost pjax">
   <h2>随机文章</h2>
   <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/hexo-blog/categories/Redis/" title="分类于 Redis">Redis</a>
+</div>
+
+    <span><a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
+  </li>
+
       
   <li class="item">
     
