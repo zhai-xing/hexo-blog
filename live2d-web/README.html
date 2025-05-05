@@ -1,0 +1,103 @@
+<h1 id="live2d-web"><a class="markdownIt-Anchor" href="#live2d-web">#</a> live2d-web</h1>
+<h2 id="简介"><a class="markdownIt-Anchor" href="#简介">#</a> 简介</h2>
+<ul>
+<li>一个自用的 web 端的看板娘项目，魔改自 <a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a></li>
+</ul>
+<h2 id="魔改部分"><a class="markdownIt-Anchor" href="#魔改部分">#</a> 魔改部分</h2>
+<ul>
+<li>
+<p>引用了 <a href="https://github.com/guansss/pixi-live2d-display">guansss/pixi-live2d-display</a> 的项目，以便支持其他版本的模型，基于<a href="https://github.com/pixijs/pixijs/releases/tag/v6.5.6"> PixiJSv6.5.6</a></p>
+</li>
+<li>
+<p>修改了 <code>model_list.json</code>  的格式，可自行调整模型大小和位置，播放对应的音频，显示对应的对话信息，可调整闲时动画的间隔</p>
+</li>
+<li>
+<p>移除了对 <a href="https://github.com/fghrsh/live2d_api">live2d_api</a> 的依赖，触发点击事件的同时，对话框中显示 model.json 中与之对应的 motion 的 text 信息</p>
+</li>
+<li>
+<p>移除了飞机大战和照相功能，加入了手机震动和看板随机按钮</p>
+</li>
+</ul>
+<h2 id="声明"><a class="markdownIt-Anchor" href="#声明">#</a> 声明</h2>
+<ul>
+<li>因为是本人自用的项目，因此并不会帮解决使用过程中出现的任何问题，请理性使用</li>
+</ul>
+<h2 id="使用"><a class="markdownIt-Anchor" href="#使用">#</a> 使用</h2>
+<h3 id="本地加载"><a class="markdownIt-Anchor" href="#本地加载">#</a> 本地加载</h3>
+<ul>
+<li>将本项目克隆到本地，然后在页面中引入</li>
+</ul>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"./live2d-web/live2d-web.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token operator">&lt;</span>script<span class="token operator">></span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>screen<span class="token punctuation">.</span>width <span class="token operator">>=</span> <span class="token number">768</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token keyword">let</span> localConfig <span class="token operator">=</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>            <span class="token literal-property property">live2d_path</span><span class="token operator">:</span> <span class="token string">'./live2d-web/'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="6"></td><td><pre>            <span class="token literal-property property">model_path</span><span class="token operator">:</span> <span class="token string">'./live2d-web/model/'</span></pre></td></tr><tr><td data-num="7"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>        <span class="token function">initLive2d</span><span class="token punctuation">(</span>localConfig<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 在合适的时机初始化</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></pre></td></tr></table></figure><h3 id="通过cdn加载"><a class="markdownIt-Anchor" href="#通过cdn加载">#</a> 通过 CDN 加载</h3>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://cdn.jsdelivr.net/gh/GardenHamster/live2d-web/live2d-web.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token operator">&lt;</span>script<span class="token operator">></span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>screen<span class="token punctuation">.</span>width <span class="token operator">>=</span> <span class="token number">768</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token keyword">let</span> cdnConfig <span class="token operator">=</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>            <span class="token literal-property property">live2d_path</span><span class="token operator">:</span> <span class="token string">'https://cdn.jsdelivr.net/gh/GardenHamster/live2d-web/'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="6"></td><td><pre>            <span class="token literal-property property">model_path</span><span class="token operator">:</span> <span class="token string">'https://cdn.jsdelivr.net/gh/GardenHamster/live2d-web/model/'</span></pre></td></tr><tr><td data-num="7"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>        <span class="token function">initLive2d</span><span class="token punctuation">(</span>cdnConfig<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 在合适的时机初始化</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></pre></td></tr></table></figure><h2 id="添加模型"><a class="markdownIt-Anchor" href="#添加模型">#</a> 添加模型</h2>
+<ul>
+<li>
+<p>将模型文件夹复制到 model 目录下</p>
+</li>
+<li>
+<p>根据自己的需要修改模型的 <code>model.json</code>  文件</p>
+</li>
+<li>
+<p>将模型注册到根目录下的 <a href="https://github.com/GardenHamster/live2d-web/blob/main/model_list.json">model_list.json</a></p>
+</li>
+</ul>
+<h3 id="modeljson"><a class="markdownIt-Anchor" href="#modeljson">#</a> model.json</h3>
+<ul>
+<li>
+<p>触摸动画对应的 key 为 <code>tap_*****</code> ，区分大小写</p>
+</li>
+<li>
+<p>例如：触摸 <code>head</code>  对应的 key 为’tap_head’</p>
+</li>
+<li>
+<p>例如：触摸 <code>face</code>  对应的 key 为’tap_face’</p>
+</li>
+<li>
+<p>以此类推…</p>
+</li>
+<li>
+<p>待机动画对应的 key 为 <code>idle</code> ，区分大小写</p>
+</li>
+<li>
+<p>出场动画对应的 key 为 <code>born</code> ，区分大小写</p>
+</li>
+<li>
+<p>震机动画对应的 key 为 <code>shake</code> ，区分大小写</p>
+</li>
+<li>
+<p>&quot;motions&quot; 中的 &quot;timing&quot; 是我额外添加的参数，用于在循环播放 <code>idle</code>  的同时间可以间隔播放 <code>timing</code>  中的内容</p>
+</li>
+<li>
+<p>详细可以参考 <a href="https://github.com/GardenHamster/live2d-web/blob/main/model/Houkai-Gakuen2/theresa/model.json">theresa/model.json</a></p>
+</li>
+</ul>
+<h3 id="model_listjson"><a class="markdownIt-Anchor" href="#model_listjson">#</a> model_list.json</h3>
+<ul>
+<li><code>models[0][0]</code>  是启动页面后第一个加载的模型，可以根据自己的需要调整模型的位置</li>
+</ul>
+<pre><code class="language-jsonc">{
+    &quot;model_json&quot;: &quot;Houkai-Gakuen2/theresa/model.json&quot;,//相对于model_path中的model.json路径
+    &quot;model_scale&quot;: 0.3, //模型缩放比例,可不填,默认:1
+    &quot;center_x&quot;: 0.5,    //模型的x坐标=(canvy.width*center_x),可不填,默认:0.5
+    &quot;center_y&quot;: 0.65,   //模型的y坐标=(canvy.height*center_y),可不填,默认:0.5
+    &quot;anchor_x&quot;: 0.5,    //相当于模型的中心点,center_x基于它进行偏移,可不填,默认:0.5
+    &quot;anchor_y&quot;: 0.5,    //相当于模型的中心点,center_y基于它进行偏移,可不填,默认:0.5
+    &quot;born_tip&quot;: &quot;德丽莎世界第一可爱&quot;,//模型加载完毕后,对话框中显示的信息,比model.json中text的优先级高
+    &quot;timingInterval&quot;: 60000,//如果该值&gt;0，则会按照这个间隔播放名为'timing'的motions，单位：毫秒
+    &quot;showWaifuTips&quot;: false //对话框中是否显示waifu-tips.json中的信息,可不填,默认为true
+}
+</code></pre>
+<h3 id="修改样式"><a class="markdownIt-Anchor" href="#修改样式">#</a> 修改样式</h3>
+<ul>
+<li>图标大小和看板娘位置等需要自行修改根目录下的 <code>waifu.css</code></li>
+</ul>
+<h3 id="分享一些我找到的模型仓库"><a class="markdownIt-Anchor" href="#分享一些我找到的模型仓库">#</a> 分享一些我找到的模型仓库</h3>
+<ul>
+<li><a href="https://github.com/Eikanya/Live2d-model">https://github.com/Eikanya/Live2d-model</a></li>
+<li><a href="https://github.com/imuncle/live2d">https://github.com/imuncle/live2d</a></li>
+</ul>
+<h2 id="效果"><a class="markdownIt-Anchor" href="#效果">#</a> 效果</h2>
+<ul>
+<li>可以在 <a href="https://gardenhamster.github.io/live2d-web">Github Page</a> 左下角看到效果</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/89188316/210346873-631a598b-0cb8-4b95-a47b-2691781c7b3b.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/89188316/210347110-ef1ba4c0-87db-4aaf-a140-0b2bc79ef500.png" alt="image"></p>

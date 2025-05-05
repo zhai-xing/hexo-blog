@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liv2d-web demo</title>
+</head>
+<body>
+    <script src="./live2d-web.js"></script>
+    <script>
+        if (screen.width >= 768) {
+            let localConfig = {
+                live2d_path: './',
+                model_path: './model/'
+            };
+            let cdnConfig = {
+                live2d_path: 'https://cdn.jsdelivr.net/gh/GardenHamster/live2d-web/',
+                model_path: 'https://cdn.jsdelivr.net/gh/GardenHamster/live2d-web/model/'
+            };
+            initLive2d(localConfig);
+        }
+    </script>
+</body>
+</html>

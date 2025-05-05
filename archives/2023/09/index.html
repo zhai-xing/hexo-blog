@@ -95,11 +95,11 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
       <div id="imgs" class="pjax">
         <ul>
           <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/81d1da7e1ba142629967fea196c73e0e.jpg"></li>
-          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/5af17f7f881b11ebb6edd017c2d2eca2.jpg"></li>
-          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/3f30472a880511ebb6edd017c2d2eca2.jpg"></li>
           <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/020a1051d89f40bd92ad4ce455860ff5.jpg"></li>
-          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/5af17f7f881b11ebb6edd017c2d2eca2.jpg"></li>
           <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/81d1da7e1ba142629967fea196c73e0e.jpg"></li>
+          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/5af17f7f881b11ebb6edd017c2d2eca2.jpg"></li>
+          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/020a1051d89f40bd92ad4ce455860ff5.jpg"></li>
+          <li class="item" data-background-image="https://blog-1259743669.cos.ap-chengdu.myqcloud.com/3f30472a880511ebb6edd017c2d2eca2.jpg"></li>
         </ul>
       </div>
     </header>
@@ -199,7 +199,7 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
     </div>
     <div class="item tags">
       <a href="/hexo-blog/tags/">
-        <span class="count">3</span>
+        <span class="count">5</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -295,16 +295,6 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
-</div>
-
-    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/hexo-blog/categories/Redis/" title="分类于 Redis">Redis</a>
 </div>
 
@@ -315,10 +305,10 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/text/" title="分类于 text">text</a>
+<a href="/hexo-blog/categories/Linux/" title="分类于 Linux">Linux</a>
 </div>
 
-    <span><a href="/hexo-blog/permalink" title="测试的">测试的</a></span>
+    <span><a href="/hexo-blog/permalink" title="异常排查">异常排查</a></span>
   </li>
 
       
@@ -328,6 +318,16 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
 </div>
 
     <span><a href="/hexo-blog/2025/791381bc9291.html" title="Hello World">Hello World</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+</div>
+
+    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
   </ul>
@@ -383,6 +383,17 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
 
 <script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
 
+<script src="./live2d-web/live2d-web.js"></script>
+<script>
+    if (screen.width >= 768) {
+        let localConfig = {
+            live2d_path: './live2d-web/',
+            model_path: './live2d-web/model/'
+        };
+        initLive2d(localConfig);//在合适的时机初始化
+    }
+    
+</script>
 <script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
 
 <script src="/hexo-blog/js/app.js?v=0.2.5"></script>

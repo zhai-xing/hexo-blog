@@ -9,7 +9,9 @@
         <lastBuildDate>Tue, 05 Sep 2023 22:57:10 +0800</lastBuildDate>
         <category>原理</category>
         <category>学习笔记</category>
-        <category>test</category>
+        <category>java</category>
+        <category>linux</category>
+        <category>事故排查</category>
         <item>
             <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
             <title>Redis学习笔记</title>
