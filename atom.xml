@@ -3,9 +3,30 @@
     <id>https://zhai-xing.github.io/hexo-blog</id>
     <title>Mo Bai</title>
     <link href="https://zhai-xing.github.io/hexo-blog" />
-    <updated>2023-09-05T14:57:10.000Z</updated>
+    <updated>2025-05-05T09:39:42.362Z</updated>
     <category term="原理" />
     <category term="学习笔记" />
+    <entry>
+        <id>https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2025-05-05T09:39:42.362Z</updated>
+    </entry>
     <entry>
         <id>https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>Redis学习笔记</title>
@@ -461,15 +482,7 @@ intSet: 集合中的元素都是数值类型&lt;br&gt;
         <id>https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>MySQL学习笔记</title>
         <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
-        <content type="html">&lt;p&gt;tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[原理]&lt;/li&gt;
-&lt;li&gt;[学习笔记]&lt;br&gt;
-categories:&lt;/li&gt;
-&lt;li&gt;[数据库]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;一-mysql基础篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-mysql基础篇&#34;&gt;#&lt;/a&gt; 一、 Mysql 基础篇&lt;/h1&gt;
+        <content type="html">&lt;h1 id=&#34;一-mysql基础篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-mysql基础篇&#34;&gt;#&lt;/a&gt; 一、 Mysql 基础篇&lt;/h1&gt;
 &lt;h4 id=&#34;语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#语句执行流程&#34;&gt;#&lt;/a&gt; 语句执行流程&lt;/h4&gt;
 &lt;h5 id=&#34;mysql查询语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql查询语句执行流程&#34;&gt;#&lt;/a&gt; mysql 查询语句执行流程：&lt;/h5&gt;
 &lt;ol&gt;
@@ -1016,6 +1029,8 @@ mysql 数据库配置优化 设置缓冲池内存大小&lt;br&gt;
 &lt;p&gt;《从根上理解 mysql》&lt;/p&gt;
 &lt;p&gt;《小林 Coding》&lt;/p&gt;
 </content>
+        <category term="原理" />
+        <category term="学习笔记" />
         <updated>2023-09-04T14:46:36.000Z</updated>
     </entry>
 </feed>
