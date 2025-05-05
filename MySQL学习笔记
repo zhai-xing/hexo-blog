@@ -749,7 +749,7 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
     <div class="item right">
       
 
-  <a href="/hexo-blog/2025/d0f3ef953ffc.html" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;020a1051d89f40bd92ad4ce455860ff5.jpg" title="Hello World">
+  <a href="/hexo-blog/2025/d0f3ef953ffc.html" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;5af17f7f881b11ebb6edd017c2d2eca2.jpg" title="Hello World">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Hello World</h3>
@@ -898,19 +898,19 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
 </div>
 
-    <span><a href="/hexo-blog/2025/d0f3ef953ffc.html" title="Hello World">Hello World</a></span>
+    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
 </div>
 
-    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
+    <span><a href="/hexo-blog/2025/d0f3ef953ffc.html" title="Hello World">Hello World</a></span>
   </li>
 
   </ul>
