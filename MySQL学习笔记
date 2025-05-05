@@ -898,10 +898,10 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+<a href="/hexo-blog/categories/Redis/" title="分类于 Redis">Redis</a>
 </div>
 
-    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
+    <span><a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
   </li>
 
       
@@ -917,10 +917,10 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/Redis/" title="分类于 Redis">Redis</a>
+<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
 </div>
 
-    <span><a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
+    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
   </ul>
