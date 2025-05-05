@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Mo Bai • Posts by &#34;test&#34; tag</title>
+        <link>https://zhai-xing.github.io/hexo-blog</link>
+        <description>欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 05 Jan 2027 00:00:00 +0800</pubDate>
+        <lastBuildDate>Tue, 05 Jan 2027 00:00:00 +0800</lastBuildDate>
+        <category>原理</category>
+        <category>学习笔记</category>
+        <category>test</category>
+        <item>
+            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/permalink</guid>
+            <title>测试的</title>
+            <link>https://zhai-xing.github.io/hexo-blog/permalink</link>
+            <category>test</category>
+            <pubDate>Tue, 05 Jan 2027 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://blog-1259743669.cos.ap-chengdu.myqcloud.com/picgo/20250505191023.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

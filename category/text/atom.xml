@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhai-xing.github.io/hexo-blog</id>
+    <title>Mo Bai • Posts by &#34;text&#34; category</title>
+    <link href="https://zhai-xing.github.io/hexo-blog" />
+    <updated>2027-01-04T16:00:00.000Z</updated>
+    <category term="原理" />
+    <category term="学习笔记" />
+    <category term="test" />
+    <entry>
+        <id>https://zhai-xing.github.io/hexo-blog/permalink</id>
+        <title>测试的</title>
+        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/permalink"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://blog-1259743669.cos.ap-chengdu.myqcloud.com/picgo/20250505191023.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="test" />
+        <updated>2027-01-04T16:00:00.000Z</updated>
+    </entry>
+</feed>
