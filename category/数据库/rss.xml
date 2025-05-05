@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Mo Bai • Posts by &#34;数据库&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://zhai-xing.github.io/hexo-blog</link>
         <description>欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步</description>
         <language>zh</language>
         <pubDate>Mon, 04 Sep 2023 22:46:36 +0800</pubDate>
@@ -10,9 +10,9 @@
         <category>原理</category>
         <category>学习笔记</category>
         <item>
-            <guid isPermalink="true">http://example.com/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
             <title>MySQL学习笔记</title>
-            <link>http://example.com/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+            <link>https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
             <category>原理</category>
             <category>学习笔记</category>
             <pubDate>Mon, 04 Sep 2023 22:46:36 +0800</pubDate>
