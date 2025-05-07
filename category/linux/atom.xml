@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhai-xing.github.io/hexo-blog</id>
+    <id>https://zhai-xing.github.io</id>
     <title>Mo Bai • Posts by &#34;linux&#34; category</title>
-    <link href="https://zhai-xing.github.io/hexo-blog" />
+    <link href="https://zhai-xing.github.io" />
     <updated>2027-01-04T16:00:00.000Z</updated>
     <category term="原理" />
     <category term="学习笔记" />
@@ -10,9 +10,9 @@
     <category term="linux" />
     <category term="事故排查" />
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/permalink</id>
+        <id>https://zhai-xing.github.io/permalink</id>
         <title>异常排查</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/permalink"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/permalink"/>
         <content type="html">&lt;h2 id=&#34;day1&#34;&gt;&lt;a href=&#34;#day1&#34; class=&#34;headerlink&#34; title=&#34;day1&#34;&gt;&lt;/a&gt;day1&lt;/h2&gt;&lt;h3 id=&#34;工具：&#34;&gt;&lt;a href=&#34;#工具：&#34; class=&#34;headerlink&#34; title=&#34;工具：&#34;&gt;&lt;/a&gt;工具：&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;java: jstack,jmap,arthas&lt;/li&gt;
 &lt;li&gt;jvm: gdb,strace,arthas&lt;/li&gt;

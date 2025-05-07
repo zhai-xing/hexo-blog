@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Mo Bai • Posts by &#34;linux&#34; category</title>
-        <link>https://zhai-xing.github.io/hexo-blog</link>
+        <link>https://zhai-xing.github.io</link>
         <description>欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步</description>
         <language>zh-CN</language>
         <pubDate>Tue, 05 Jan 2027 00:00:00 +0800</pubDate>
@@ -13,9 +13,9 @@
         <category>linux</category>
         <category>事故排查</category>
         <item>
-            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/permalink</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/permalink</guid>
             <title>异常排查</title>
-            <link>https://zhai-xing.github.io/hexo-blog/permalink</link>
+            <link>https://zhai-xing.github.io/permalink</link>
             <category>java</category>
             <category>linux</category>
             <category>事故排查</category>

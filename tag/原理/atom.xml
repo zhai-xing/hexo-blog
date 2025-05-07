@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhai-xing.github.io/hexo-blog</id>
+    <id>https://zhai-xing.github.io</id>
     <title>Mo Bai • Posts by &#34;原理&#34; tag</title>
-    <link href="https://zhai-xing.github.io/hexo-blog" />
+    <link href="https://zhai-xing.github.io" />
     <updated>2023-09-05T14:57:10.000Z</updated>
     <category term="原理" />
     <category term="学习笔记" />
@@ -10,9 +10,9 @@
     <category term="linux" />
     <category term="事故排查" />
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
+        <id>https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>Redis学习笔记</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
         <content type="html">&lt;h1 id=&#34;一-redis数据类型篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-redis数据类型篇&#34;&gt;#&lt;/a&gt; 一、redis 数据类型篇&lt;/h1&gt;
 &lt;p&gt;rdis 常见的数据类型及应用场景&lt;/p&gt;
 &lt;h4 id=&#34;string&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#string&#34;&gt;#&lt;/a&gt; String&lt;/h4&gt;
@@ -461,9 +461,9 @@ intSet: 集合中的元素都是数值类型&lt;br&gt;
         <updated>2023-09-05T14:57:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
+        <id>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>MySQL学习笔记</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
         <content type="html">&lt;h1 id=&#34;一-mysql基础篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-mysql基础篇&#34;&gt;#&lt;/a&gt; 一、 Mysql 基础篇&lt;/h1&gt;
 &lt;h4 id=&#34;语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#语句执行流程&#34;&gt;#&lt;/a&gt; 语句执行流程&lt;/h4&gt;
 &lt;h5 id=&#34;mysql查询语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql查询语句执行流程&#34;&gt;#&lt;/a&gt; mysql 查询语句执行流程：&lt;/h5&gt;

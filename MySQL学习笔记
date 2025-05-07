@@ -8,26 +8,26 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#FFF">
-  <link rel="apple-touch-icon" sizes="180x180" href="/hexo-blog/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-<link rel="icon" type="image/ico" sizes="32x32" href="/hexo-blog/images/favicon.ico">
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
 
 
-<link rel="alternate" type="application/rss+xml" title="Mo Bai" href="https://zhai-xing.github.io/hexo-blog/rss.xml" />
-<link rel="alternate" type="application/atom+xml" title="Mo Bai" href="https://zhai-xing.github.io/hexo-blog/atom.xml" />
-<link rel="alternate" type="application/json" title="Mo Bai" href="https://zhai-xing.github.io/hexo-blog/feed.json" />
+<link rel="alternate" type="application/rss+xml" title="Mo Bai" href="https://zhai-xing.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Mo Bai" href="https://zhai-xing.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="Mo Bai" href="https://zhai-xing.github.io/feed.json" />
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
-<link rel="stylesheet" href="/hexo-blog/css/app.css?v=0.2.5">
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
   <meta name="keywords" content="原理,学习笔记" />
 
 
-<link rel="canonical" href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+<link rel="canonical" href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
 
 
 
@@ -86,7 +86,7 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
       </div>
     </div>
     <ul class="menu">
-      <li class="item title"><a href="/hexo-blog/" rel="start">Mo Bai</a></li>
+      <li class="item title"><a href="/" rel="start">Mo Bai</a></li>
     </ul>
     <ul class="right">
       <li class="item theme">
@@ -125,16 +125,16 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
     
 <div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
 <i class="ic i-home"></i>
-<span><a href="/hexo-blog/">首页</a></span><i class="ic i-angle-right"></i>
-<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="item" rel="index" title="分类于 数据库"><span itemprop="name">数据库</span></a>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="item" rel="index" title="分类于 数据库"><span itemprop="name">数据库</span></a>
 <meta itemprop="position" content="1" /></span>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+  <link itemprop="mainEntityOfPage" href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="image" content="/hexo-blog/images/avatar.jpg">
+    <meta itemprop="image" content="/images/avatar.jpg">
     <meta itemprop="name" content="墨白">
     <meta itemprop="description" content="别怕路长梦远，总有星河照耀, 欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步">
   </span>
@@ -694,8 +694,8 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 <p>《小林 Coding》</p>
 
       <div class="tags">
-          <a href="/hexo-blog/tags/%E5%8E%9F%E7%90%86/" rel="tag"><i class="ic i-tag"></i> 原理</a>
-          <a href="/hexo-blog/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag"><i class="ic i-tag"></i> 学习笔记</a>
+          <a href="/tags/%E5%8E%9F%E7%90%86/" rel="tag"><i class="ic i-tag"></i> 原理</a>
+          <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag"><i class="ic i-tag"></i> 学习笔记</a>
       </div>
   </div>
 
@@ -728,7 +728,7 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="数据库">https://zhai-xing.github.io/hexo-blog/MySQL学习笔记</a>
+    <a href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="数据库">https://zhai-xing.github.io/MySQL学习笔记</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC96aC1DTg=="><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -749,7 +749,7 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
     <div class="item right">
       
 
-  <a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;020a1051d89f40bd92ad4ce455860ff5.jpg" title="Redis学习笔记">
+  <a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;020a1051d89f40bd92ad4ce455860ff5.jpg" title="Redis学习笔记">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> Redis</span>
   <h3>Redis学习笔记</h3>
@@ -775,32 +775,32 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li class="active"><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" rel="bookmark" title="MySQL学习笔记">MySQL学习笔记</a></li>
+          <li class="active"><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" rel="bookmark" title="MySQL学习笔记">MySQL学习笔记</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="站点概览">
         <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <img class="image" itemprop="image" alt="墨白"
-      data-src="/hexo-blog/images/avatar.jpg">
+      data-src="/images/avatar.jpg">
   <p class="name" itemprop="name">墨白</p>
   <div class="description" itemprop="description">欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步</div>
 </div>
 
 <nav class="state">
     <div class="item posts">
-      <a href="/hexo-blog/archives/">
+      <a href="/archives/">
         <span class="count">4</span>
         <span class="name">文章</span>
       </a>
     </div>
     <div class="item categories">
-      <a href="/hexo-blog/categories/">
+      <a href="/categories/">
         <span class="count">3</span>
         <span class="name">分类</span>
       </a>
     </div>
     <div class="item tags">
-      <a href="/hexo-blog/tags/">
+      <a href="/tags/">
         <span class="count">5</span>
         <span class="name">标签</span>
       </a>
@@ -814,22 +814,22 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   
     
   <li class="item">
-    <a href="/hexo-blog/" rel="section"><i class="ic i-hemo"></i>主站</a>
+    <a href="/" rel="section"><i class="ic i-hemo"></i>主站</a>
   </li>
 
     
   <li class="item">
-    <a href="/hexo-blog/about/" rel="section"><i class="ic i-about"></i>关于我</a>
+    <a href="/about/" rel="section"><i class="ic i-about"></i>关于我</a>
   </li>
 
     
   <li class="item">
-    <a href="/hexo-blog/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
   </li>
 
     
   <li class="item">
-    <a href="/hexo-blog/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
   </li>
 
         
@@ -839,7 +839,7 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 
         
   <li class="item">
-    <a href="/hexo-blog/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a>
   </li>
 
   </ul>
@@ -850,18 +850,18 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 
         
   <li class="item">
-    <a href="/hexo-blog/friends/" rel="section"><i class="ic i-heart"></i>友链</a>
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>友链</a>
   </li>
 
         
   <li class="item">
-    <a href="/hexo-blog/links/" rel="section"><i class="ic i-magic"></i>项目链接</a>
+    <a href="/links/" rel="section"><i class="ic i-magic"></i>项目链接</a>
   </li>
 
   </ul>
     
   <li class="item">
-    <a href="/hexo-blog/guestbook/" rel="section"><i class="ic i-guestbook"></i>留言板</a>
+    <a href="/guestbook/" rel="section"><i class="ic i-guestbook"></i>留言板</a>
   </li>
 
 
@@ -898,39 +898,39 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
 </div>
 
-    <span><a href="/hexo-blog/2025/791381bc9291.html" title="Hello World">Hello World</a></span>
+    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/Redis/" title="分类于 Redis">Redis</a>
 </div>
 
-    <span><a href="/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
+    <span><a href="/2025/791381bc9291.html" title="Hello World">Hello World</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+<a href="/categories/Linux/" title="分类于 Linux">Linux</a>
 </div>
 
-    <span><a href="/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
+    <span><a href="/permalink" title="异常排查">异常排查</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/hexo-blog/categories/Linux/" title="分类于 Linux">Linux</a>
+<a href="/categories/Redis/" title="分类于 Redis">Redis</a>
 </div>
 
-    <span><a href="/hexo-blog/permalink" title="异常排查">异常排查</a></span>
+    <span><a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
   </li>
 
   </ul>
@@ -999,7 +999,7 @@ mysql 数据库配置优化 设置缓冲池内存大小<br>
 </script>
 <script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
 
-<script src="/hexo-blog/js/app.js?v=0.2.5"></script>
+<script src="/js/app.js?v=0.2.5"></script>
 
 
 

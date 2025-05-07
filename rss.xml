@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Mo Bai</title>
-        <link>https://zhai-xing.github.io/hexo-blog</link>
+        <link>https://zhai-xing.github.io</link>
         <description>欢迎来到墨白的知识小屋，这里你可以阅读我的学习笔记并提出独到的见解~我们将互相学习交流知识，共同进步</description>
         <language>zh-CN</language>
         <pubDate>Tue, 05 Jan 2027 00:00:00 +0800</pubDate>
@@ -13,9 +13,9 @@
         <category>linux</category>
         <category>事故排查</category>
         <item>
-            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/permalink</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/permalink</guid>
             <title>异常排查</title>
-            <link>https://zhai-xing.github.io/hexo-blog/permalink</link>
+            <link>https://zhai-xing.github.io/permalink</link>
             <category>java</category>
             <category>linux</category>
             <category>事故排查</category>
@@ -222,9 +222,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/2025/791381bc9291.html</guid>
             <title>Hello World</title>
-            <link>https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html</link>
+            <link>https://zhai-xing.github.io/2025/791381bc9291.html</link>
             <pubDate>Mon, 05 May 2025 17:39:42 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
@@ -243,9 +243,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
             <title>Redis学习笔记</title>
-            <link>https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+            <link>https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
             <category>原理</category>
             <category>学习笔记</category>
             <pubDate>Tue, 05 Sep 2023 22:57:10 +0800</pubDate>
@@ -694,9 +694,9 @@ intSet: 集合中的元素都是数值类型&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
+            <guid isPermalink="true">https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
             <title>MySQL学习笔记</title>
-            <link>https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
+            <link>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
             <category>原理</category>
             <category>学习笔记</category>
             <pubDate>Mon, 04 Sep 2023 22:46:36 +0800</pubDate>

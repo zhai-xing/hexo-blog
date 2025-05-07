@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhai-xing.github.io/hexo-blog</id>
+    <id>https://zhai-xing.github.io</id>
     <title>Mo Bai</title>
-    <link href="https://zhai-xing.github.io/hexo-blog" />
+    <link href="https://zhai-xing.github.io" />
     <updated>2027-01-04T16:00:00.000Z</updated>
     <category term="原理" />
     <category term="学习笔记" />
@@ -10,9 +10,9 @@
     <category term="linux" />
     <category term="事故排查" />
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/permalink</id>
+        <id>https://zhai-xing.github.io/permalink</id>
         <title>异常排查</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/permalink"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/permalink"/>
         <content type="html">&lt;h2 id=&#34;day1&#34;&gt;&lt;a href=&#34;#day1&#34; class=&#34;headerlink&#34; title=&#34;day1&#34;&gt;&lt;/a&gt;day1&lt;/h2&gt;&lt;h3 id=&#34;工具：&#34;&gt;&lt;a href=&#34;#工具：&#34; class=&#34;headerlink&#34; title=&#34;工具：&#34;&gt;&lt;/a&gt;工具：&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;java: jstack,jmap,arthas&lt;/li&gt;
 &lt;li&gt;jvm: gdb,strace,arthas&lt;/li&gt;
@@ -219,9 +219,9 @@
         <updated>2027-01-04T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html</id>
+        <id>https://zhai-xing.github.io/2025/791381bc9291.html</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/2025/791381bc9291.html"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/2025/791381bc9291.html"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
@@ -240,9 +240,9 @@
         <updated>2025-05-05T09:39:42.362Z</updated>
     </entry>
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
+        <id>https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>Redis学习笔记</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
         <content type="html">&lt;h1 id=&#34;一-redis数据类型篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-redis数据类型篇&#34;&gt;#&lt;/a&gt; 一、redis 数据类型篇&lt;/h1&gt;
 &lt;p&gt;rdis 常见的数据类型及应用场景&lt;/p&gt;
 &lt;h4 id=&#34;string&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#string&#34;&gt;#&lt;/a&gt; String&lt;/h4&gt;
@@ -691,9 +691,9 @@ intSet: 集合中的元素都是数值类型&lt;br&gt;
         <updated>2023-09-05T14:57:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
+        <id>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
         <title>MySQL学习笔记</title>
-        <link rel="alternate" href="https://zhai-xing.github.io/hexo-blog/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
+        <link rel="alternate" href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
         <content type="html">&lt;h1 id=&#34;一-mysql基础篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-mysql基础篇&#34;&gt;#&lt;/a&gt; 一、 Mysql 基础篇&lt;/h1&gt;
 &lt;h4 id=&#34;语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#语句执行流程&#34;&gt;#&lt;/a&gt; 语句执行流程&lt;/h4&gt;
 &lt;h5 id=&#34;mysql查询语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql查询语句执行流程&#34;&gt;#&lt;/a&gt; mysql 查询语句执行流程：&lt;/h5&gt;
