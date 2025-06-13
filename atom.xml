@@ -9,6 +9,7 @@
     <category term="java" />
     <category term="linux" />
     <category term="事故排查" />
+    <category term="readme" />
     <entry>
         <id>https://zhai-xing.github.io/permalink</id>
         <title>异常排查</title>
@@ -1222,6 +1223,16 @@ mysql 数据库配置优化 设置缓冲池内存大小&lt;br&gt;
 </content>
         <category term="原理" />
         <category term="学习笔记" />
+        <updated>2023-09-04T14:46:36.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
+        <title>我的readme</title>
+        <link rel="alternate" href="https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"/>
+        <content type="html">&lt;p&gt;。。。。&lt;br&gt;
+敬请期待&lt;/p&gt;
+</content>
+        <category term="readme" />
         <updated>2023-09-04T14:46:36.000Z</updated>
     </entry>
 </feed>
