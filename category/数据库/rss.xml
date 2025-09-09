@@ -7,19 +7,16 @@
         <language>zh-CN</language>
         <pubDate>Mon, 04 Sep 2023 22:46:36 +0800</pubDate>
         <lastBuildDate>Mon, 04 Sep 2023 22:46:36 +0800</lastBuildDate>
+        <category>readme</category>
+        <category>k8s</category>
+        <category>事故记录</category>
         <category>原理</category>
         <category>学习笔记</category>
-        <category>java</category>
-        <category>linux</category>
-        <category>事故排查</category>
-        <category>readme</category>
         <category>随笔</category>
         <item>
             <guid isPermalink="true">https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</guid>
             <title>MySQL学习笔记</title>
             <link>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</link>
-            <category>原理</category>
-            <category>学习笔记</category>
             <pubDate>Mon, 04 Sep 2023 22:46:36 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一-mysql基础篇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-mysql基础篇&#34;&gt;#&lt;/a&gt; 一、 Mysql 基础篇&lt;/h1&gt;
 &lt;h4 id=&#34;语句执行流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#语句执行流程&#34;&gt;#&lt;/a&gt; 语句执行流程&lt;/h4&gt;

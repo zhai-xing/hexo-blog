@@ -64,12 +64,12 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2023-09-05 22:57:10">
+  <span class="item" title="创建时间：2025-07-05 22:57:10">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2023-09-05T22:57:10+08:00">2023-09-05</time>
+    <time itemprop="dateCreated datePublished" datetime="2025-07-05T22:57:10+08:00">2025-07-05</time>
   </span>
 </div>
 
@@ -169,7 +169,7 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2025-06-30 23:06:16" itemprop="dateModified" datetime="2025-06-30T23:06:16+08:00">2025-06-30</time>
+    <time title="修改时间：2025-09-09 21:27:02" itemprop="dateModified" datetime="2025-09-09T21:27:02+08:00">2025-09-09</time>
   </span>
   <span id="/关于爱情" class="item leancloud_visitors" data-flag-title="随笔" title="阅读次数">
       <span class="icon">
@@ -209,20 +209,20 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
     <div class="item left">
       
 
-  <a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;image-20230905225131183.png" title="MySQL学习笔记">
+  <a href="/2025/5c5afd997dba.html" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;81d1da7e1ba142629967fea196c73e0e.jpg" title="Hello World">
   <span class="type">上一篇</span>
-  <span class="category"><i class="ic i-flag"></i> 数据库</span>
-  <h3>MySQL学习笔记</h3>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>Hello World</h3>
   </a>
 
     </div>
     <div class="item right">
       
 
-  <a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;020a1051d89f40bd92ad4ce455860ff5.jpg" title="Redis学习笔记">
+  <a href="/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;picgo&#x2F;abd2551c0de25dd46f17fdd040ac4f92.png" title="凌晨k8s某个pod出现大量调用redis的耗时增加日志">
   <span class="type">下一篇</span>
-  <span class="category"><i class="ic i-flag"></i> Redis</span>
-  <h3>Redis学习笔记</h3>
+  <span class="category"><i class="ic i-flag"></i> 事故记录</span>
+  <h3>凌晨k8s某个pod出现大量调用redis的耗时增加日志</h3>
   </a>
 
     </div>
@@ -270,7 +270,7 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">7</span>
+        <span class="count">6</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -342,12 +342,12 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+        <a href="/2025/5c5afd997dba.html" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+        <a href="/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -369,10 +369,10 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Linux/" title="分类于 Linux">Linux</a>
+<a href="/categories/readme/" title="分类于 readme">readme</a>
 </div>
 
-    <span><a href="/permalink" title="异常排查">异常排查</a></span>
+    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="我的readme">我的readme</a></span>
   </li>
 
       
@@ -382,16 +382,6 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
 </div>
 
     <span><a href="/2025/5c5afd997dba.html" title="Hello World">Hello World</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
-</div>
-
-    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
       
@@ -408,20 +398,30 @@ Mo Bai = 别怕路长梦远，总有星河照耀</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/readme/" title="分类于 readme">readme</a>
+<a href="/categories/%E9%9A%8F%E7%AC%94/" title="分类于 随笔">随笔</a>
 </div>
 
-    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="我的readme">我的readme</a></span>
+    <span><a href="/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85" title="关于爱情">关于爱情</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E9%9A%8F%E7%AC%94/" title="分类于 随笔">随笔</a>
+<a href="/categories/%E4%BA%8B%E6%95%85%E8%AE%B0%E5%BD%95/" title="分类于 事故记录">事故记录</a>
 </div>
 
-    <span><a href="/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85" title="关于爱情">关于爱情</a></span>
+    <span><a href="/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97" title="凌晨k8s某个pod出现大量调用redis的耗时增加日志">凌晨k8s某个pod出现大量调用redis的耗时增加日志</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+</div>
+
+    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="MySQL学习笔记">MySQL学习笔记</a></span>
   </li>
 
   </ul>

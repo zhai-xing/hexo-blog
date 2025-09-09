@@ -3,13 +3,12 @@
     <id>https://zhai-xing.github.io</id>
     <title>Mo Bai • Posts by &#34;随笔&#34; category</title>
     <link href="https://zhai-xing.github.io" />
-    <updated>2023-09-05T14:57:10.000Z</updated>
+    <updated>2025-07-05T14:57:10.000Z</updated>
+    <category term="readme" />
+    <category term="k8s" />
+    <category term="事故记录" />
     <category term="原理" />
     <category term="学习笔记" />
-    <category term="java" />
-    <category term="linux" />
-    <category term="事故排查" />
-    <category term="readme" />
     <category term="随笔" />
     <entry>
         <id>https://zhai-xing.github.io/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85</id>
@@ -26,6 +25,6 @@
 &lt;img data-src=&#34;https://blog-1259743669.cos.ap-chengdu.myqcloud.com/picgo/resource-9bbf2c2d63b76d8a98beb6f1-36289.jpg&#34; alt=&#34;这是图片&#34;&gt;&lt;/p&gt;
 </content>
         <category term="随笔" />
-        <updated>2023-09-05T14:57:10.000Z</updated>
+        <updated>2025-07-05T14:57:10.000Z</updated>
     </entry>
 </feed>

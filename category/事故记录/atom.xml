@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhai-xing.github.io</id>
+    <title>Mo Bai • Posts by &#34;事故记录&#34; category</title>
+    <link href="https://zhai-xing.github.io" />
+    <updated>2025-09-09T14:46:36.000Z</updated>
+    <category term="readme" />
+    <category term="k8s" />
+    <category term="事故记录" />
+    <category term="原理" />
+    <category term="学习笔记" />
+    <category term="随笔" />
+    <entry>
+        <id>https://zhai-xing.github.io/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97</id>
+        <title>凌晨k8s某个pod出现大量调用redis的耗时增加日志</title>
+        <link rel="alternate" href="https://zhai-xing.github.io/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97"/>
+        <content type="html">&lt;h2 id=&#34;起因&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#起因&#34;&gt;#&lt;/a&gt; 起因&lt;/h2&gt;
+&lt;p&gt;监控平台 skynet 出现大量消息堆积，触发告警，排查发现是某项目的调用日志疯狂打印，主要是在集群内内网调用 redis、MQ 等出现耗时增加，对 redis 的调用耗时居然达到 300ms，这是内网哦，正常情况下 内网调用应该不超过 20ms 才对&lt;/p&gt;
+&lt;h2 id=&#34;临时修复&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#临时修复&#34;&gt;#&lt;/a&gt; 临时修复&lt;/h2&gt;
+&lt;p&gt;发现问题后，马上摇对应的业务方，一起排查，检查 redis 日志后并没有发现大 key，代理节点耗时激增问题，进一步排查业务日志发现，对应超时日志仅在一个 pod 上出现，我们相同的服务有 3 个实例， 怀疑是 pod 内部调用有啥问题，马上干掉 pod 重新分配。发现新创建的 pod 依然有问题，怀疑是 pod 所在节点有问题，然后想办法调度到另外的节点。&lt;br&gt;
+临时处理方案是，增加 pod 数，让 k8s 在另外节点创建，然后马上删掉一个 pod，并快速缩减 pod，这样就不会始终在一个节点新建 pod 了，应该有其他方案，当时没找到。经过操作后，超时日志逐渐减少，第二天深度检查。&lt;/p&gt;
+&lt;h2 id=&#34;排查过程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#排查过程&#34;&gt;#&lt;/a&gt; 排查过程&lt;/h2&gt;
+&lt;p&gt;首先检查了对应 redis，发现并没有异常和慢日志等，那么说明超时应该是在 pod 调用 redis 的阶段，另外向阿里云提交了工单，协助排查。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检查 redis 日志，大 key，调用时延，未发现实现&lt;/li&gt;
+&lt;li&gt;考虑检查 vpc，但是没找到监控位置，&lt;/li&gt;
+&lt;li&gt;阿里云提供信息判断，在日志增加期间，所处 ecs 节点 cpu 占用率打满，可能是主线程阻塞导致的。&lt;/li&gt;
+&lt;li&gt;后续检查发现，我们各个服务的网关和对 cpu 占用较高的服务的部分 pod 都集中到出问题的节点上，导致该节点 cpu 占用率很高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;加钱 增加了节点，将部分服务重新部署，分配到新的节点池。降低节点负载&lt;/li&gt;
+&lt;li&gt;补充对 ecs 的监控，后续若出现 ecs 资源占用率较高，可第一时间发现并处理&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;反思与收获&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#反思与收获&#34;&gt;#&lt;/a&gt; 反思与收获&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;这次虽然没快速定位到了问题，但是误打误撞临时解决了，遇到紧急问题，先看清楚问题，然后快速摇人一起处理&lt;/li&gt;
+&lt;li&gt;排查方向基本是正确的，但是缺少了一些经验，在一开始就应该先检查每个 pod 服务和日志，对于仅在一个 pod 出现异常日志，而其他 pod 没有 应该考虑，这个 pod 与其他 pod 有什么不同，pod 所属节点、节点所在可用区，pod 负载等；&lt;/li&gt;
+&lt;li&gt;学习到，节点的负载，会影响该节点所属业务运行效率，所以 对于节点的占用，和日常数据库等 cpu，并不是占用率越高越好，而是达到一个相对平衡的状态，既不能负载太高，同时也要兼顾成本，空闲率较高。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="k8s" />
+        <category term="事故记录" />
+        <updated>2025-09-09T14:46:36.000Z</updated>
+    </entry>
+</feed>

@@ -643,10 +643,10 @@ intSet: 集合中的元素都是数值类型<br>
     <div class="item left">
       
 
-  <a href="/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;picgo&#x2F;resource-9bbf2c2d63b76d8a98beb6f1-36289.jpg" title="关于爱情">
+  <a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;blog-1259743669.cos.ap-chengdu.myqcloud.com&#x2F;image-20230905225131183.png" title="我的readme">
   <span class="type">上一篇</span>
-  <span class="category"><i class="ic i-flag"></i> 随笔</span>
-  <h3>关于爱情</h3>
+  <span class="category"><i class="ic i-flag"></i> readme</span>
+  <h3>我的readme</h3>
   </a>
 
     </div>
@@ -705,7 +705,7 @@ intSet: 集合中的元素都是数值类型<br>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">7</span>
+        <span class="count">6</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -777,7 +777,7 @@ intSet: 集合中的元素都是数值类型<br>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+        <a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
@@ -804,10 +804,20 @@ intSet: 集合中的元素都是数值类型<br>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Redis/" title="分类于 Redis">Redis</a>
+<a href="/categories/readme/" title="分类于 readme">readme</a>
 </div>
 
-    <span><a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
+    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="我的readme">我的readme</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%BA%8B%E6%95%85%E8%AE%B0%E5%BD%95/" title="分类于 事故记录">事故记录</a>
+</div>
+
+    <span><a href="/%E5%87%8C%E6%99%A8k8s%E6%9F%90%E4%B8%AApod%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F%E8%B0%83%E7%94%A8redis%E7%9A%84%E8%80%97%E6%97%B6%E5%A2%9E%E5%8A%A0%E6%97%A5%E5%BF%97" title="凌晨k8s某个pod出现大量调用redis的耗时增加日志">凌晨k8s某个pod出现大量调用redis的耗时增加日志</a></span>
   </li>
 
       
@@ -833,20 +843,10 @@ intSet: 集合中的元素都是数值类型<br>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/readme/" title="分类于 readme">readme</a>
+<a href="/categories/Redis/" title="分类于 Redis">Redis</a>
 </div>
 
-    <span><a href="/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="我的readme">我的readme</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Linux/" title="分类于 Linux">Linux</a>
-</div>
-
-    <span><a href="/permalink" title="异常排查">异常排查</a></span>
+    <span><a href="/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" title="Redis学习笔记">Redis学习笔记</a></span>
   </li>
 
       

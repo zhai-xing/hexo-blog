@@ -4,12 +4,11 @@
     <title>Mo Bai • Posts by &#34;readme&#34; category</title>
     <link href="https://zhai-xing.github.io" />
     <updated>2023-09-04T14:46:36.000Z</updated>
+    <category term="readme" />
+    <category term="k8s" />
+    <category term="事故记录" />
     <category term="原理" />
     <category term="学习笔记" />
-    <category term="java" />
-    <category term="linux" />
-    <category term="事故排查" />
-    <category term="readme" />
     <category term="随笔" />
     <entry>
         <id>https://zhai-xing.github.io/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0</id>
